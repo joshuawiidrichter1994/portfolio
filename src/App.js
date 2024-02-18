@@ -8,8 +8,11 @@ function App() {
           <h1>JR</h1>
         </div>
         <div className="right-block">
-          <p className="header-p">ABOUT</p>
-          <p className="header-p">CONTACT</p>
+          <div className="text-container">
+            <a href="https://www.linkedin.com/in/joshua-richter-5373329b/">
+              <p className="text-black">Cape Town based web developer</p>
+            </a>
+          </div>
         </div>
       </header>
       <main>
@@ -24,7 +27,13 @@ function App() {
           <div className="portfolio-container"></div>
         </div>
       </main>
-      <footer></footer>
+      <footer>
+        <div className="footer-container">
+          <p className="text-white">
+            web developer, mixing / mastering engineer, and producer
+          </p>
+        </div>
+      </footer>
     </div>
   );
 }

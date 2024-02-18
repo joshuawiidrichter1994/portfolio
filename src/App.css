@@ -8,8 +8,12 @@ header {
 }
 
 footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: black;
   height: 250px;
+  width: 100%;
 }
 
 h1 {
@@ -17,6 +21,10 @@ h1 {
   letter-spacing: 2rem;
   color:white;
   font-size: 75px;
+}
+
+a {
+  text-decoration: none;
 }
 
 .left-block {
@@ -37,12 +45,23 @@ h1 {
   float: right;
 }
 
-.header-p {
+.text-container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.text-black {
   color:black;
-  font-size: 35px;
+  font-size: 20px;
   font-weight: 600;
   letter-spacing: 1rem;
-  margin: 0 25px 0 25px;
+  margin: 0 0 0 125px;
+}
+
+.text-black:hover {
+  font-weight: 700;
 }
 
 .row {
@@ -56,4 +75,10 @@ h1 {
   width: 25%;
   height: 500px;
   border: solid black;
+}
+
+.text-white {
+  color: white;
+  margin: 0;
+  letter-spacing: 0.5rem;
 }

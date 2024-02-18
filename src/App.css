@@ -1,15 +1,39 @@
 header {
   display: flex;
-  background-color: aqua;
   height: 200px;
-  justify-content: center;
+  background-color: yellow;
   align-items: center;
 }
 
-
-
 h1 {
   margin: 0;
-  letter-spacing: 0.5rem;
+  letter-spacing: 2rem;
   color:antiquewhite;
+  font-size: 75px;
+}
+
+.left-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+  height: 100%;
+  width: 25%;
+}
+
+.right-block {
+  align-items: center;
+  display: flex;
+  justify-content: end;
+  height: 100%;
+  width: 100%;
+}
+
+.header-p {
+  color:antiquewhite;
+  font-size: 35px;
+  font-weight: 600;
+  letter-spacing: 1rem;
+  margin: 0 25px 0 25px;
+  
 }

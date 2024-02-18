@@ -1,15 +1,21 @@
 header {
   display: flex;
   height: 200px;
-  background-color: yellow;
+  background-color: white;
   align-items: center;
-  padding-right: 25px;
+  padding-right: 50px;
+  border-bottom:black solid;
+}
+
+footer {
+  background-color: black;
+  height: 250px;
 }
 
 h1 {
   margin: 0;
   letter-spacing: 2rem;
-  color:antiquewhite;
+  color:white;
   font-size: 75px;
 }
 
@@ -17,7 +23,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: aqua;
+  background-color: black;
   height: 100%;
   width: 25%;
 }
@@ -32,9 +38,22 @@ h1 {
 }
 
 .header-p {
-  color:antiquewhite;
+  color:black;
   font-size: 35px;
   font-weight: 600;
   letter-spacing: 1rem;
   margin: 0 25px 0 25px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.portfolio-container {
+  margin: 25px;
+  width: 25%;
+  height: 500px;
+  border: solid black;
 }

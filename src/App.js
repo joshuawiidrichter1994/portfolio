@@ -12,7 +12,19 @@ function App() {
           <p className="header-p">CONTACT</p>
         </div>
       </header>
-      <main></main>
+      <main>
+        <div className="row">
+          <div className="portfolio-container"></div>
+          <div className="portfolio-container"></div>
+          <div className="portfolio-container"></div>
+        </div>
+        <div className="row">
+          <div className="portfolio-container"></div>
+          <div className="portfolio-container"></div>
+          <div className="portfolio-container"></div>
+        </div>
+      </main>
+      <footer></footer>
     </div>
   );
 }

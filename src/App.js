@@ -32,8 +32,7 @@ function App() {
               />
             </div>
             <p className="portfolio-description">
-              Purrfection is a Cape Town based artist. He as only released one
-              single, but there's more to come
+              Purrfection is a Cape Town based artist.
             </p>
           </div>
           <div className="portfolio-container">
@@ -45,8 +44,8 @@ function App() {
               />
             </div>
             <p className="portfolio-description">
-              My years of collective experience dedicated to mixing, mastering,
-              and music production
+              Years of practice and learning dedicated to the art of mixing,
+              mastering, and music production
             </p>
           </div>
           <div className="portfolio-container">

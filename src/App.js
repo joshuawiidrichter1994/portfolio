@@ -22,7 +22,9 @@ function App() {
         {/* ROW 1 */}
         <div className="row">
           <div className="portfolio-container">
-            <p className="text-black">Purrfection</p>
+            <a href="https://purrfection.vercel.app/" target="_blank">
+              <p className="text-black">Purrfection</p>
+            </a>
             <div className="photo-container">
               <img
                 className="portfolio-photo"

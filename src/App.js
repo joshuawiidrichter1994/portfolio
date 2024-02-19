@@ -64,11 +64,11 @@ function App() {
           </div>
         </div>
         {/* ROW 2 */}
-        <div className="row">
+        {/* <div className="row">
           <div className="portfolio-container"></div>
           <div className="portfolio-container"></div>
           <div className="portfolio-container"></div>
-        </div>
+        </div> */}
       </main>
       <footer>
         <div className="footer-container">

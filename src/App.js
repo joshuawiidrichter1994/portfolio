@@ -9,7 +9,10 @@ function App() {
         </div>
         <div className="right-block">
           <div className="text-container">
-            <a href="https://www.linkedin.com/in/joshua-richter-5373329b/">
+            <a
+              href="https://www.linkedin.com/in/joshua-richter-5373329b/"
+              target="_blank"
+            >
               <p className="text-header">Cape Town based web developer</p>
             </a>
           </div>
@@ -45,7 +48,7 @@ function App() {
             </p>
           </div>
           <div className="portfolio-container">
-            <p className="text-black">Music Production</p>
+            <p className="text-black">Gaby Photography</p>
             <div className="photo-container">
               <img
                 className="portfolio-photo"

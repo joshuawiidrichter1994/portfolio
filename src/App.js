@@ -22,6 +22,22 @@ function App() {
         {/* ROW 1 */}
         <div className="row">
           <div className="portfolio-container">
+            <a href="https://gaby-photography.vercel.app/" target="_blank">
+              <p className="text-black">Gaby Photography</p>
+            </a>
+            <div className="photo-container">
+              <img
+                className="portfolio-photo"
+                src={require('./images/gaby-photography.jpg')}
+              />
+            </div>
+            <p className="portfolio-description">
+              Through the absence of color, the focus shifts to the intricate
+              textures, graceful curves, and subtle contrasts of light and
+              shadow, highlighting the innate beauty of each bloom.
+            </p>
+          </div>
+          <div className="portfolio-container">
             <a href="https://purrfection.vercel.app/" target="_blank">
               <p className="text-black">Purrfection</p>
             </a>
@@ -48,24 +64,26 @@ function App() {
               mastering, and music production
             </p>
           </div>
-          <div className="portfolio-container">
-            <p className="text-black">Gaby Photography</p>
-            <div className="photo-container">
-              <img
-                className="portfolio-photo"
-                src={require('./images/gaby-photography.jpg')}
-              />
-            </div>
-            <p className="portfolio-description">
-              Through the absence of color, the focus shifts to the intricate
-              textures, graceful curves, and subtle contrasts of light and
-              shadow, highlighting the innate beauty of each bloom.
-            </p>
-          </div>
         </div>
         {/* ROW 2 */}
         <div className="row">
-          <div className="portfolio-container"></div>
+          <div className="portfolio-container">
+            <a
+              href="https://book-store-snowy-seven.vercel.app/"
+              target="_blank"
+            >
+              <p className="text-black">Library</p>
+            </a>
+            <div className="photo-container">
+              <img
+                className="portfolio-photo"
+                src={require('./images/book-store.jpg')}
+              />
+            </div>
+            <p className="portfolio-description">
+              Keep an online library of all the books you own.
+            </p>
+          </div>
           <div className="portfolio-container"></div>
           <div className="portfolio-container"></div>
         </div>

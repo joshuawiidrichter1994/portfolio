@@ -1,9 +1,10 @@
 ## Joshua Richter portfolio
 
-Vercel deployment:
+### Vercel deployment:
+
 https://joshuawiidrichter.vercel.app/
 
-Setup:
+### Setup:
 
 - clone repo in desired directory
 - navigate to directory

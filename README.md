@@ -1,7 +1,7 @@
 ## Joshua Richter portfolio
 
 Vercel deployment:
-https://portfolio-nine-theta-45.vercel.app/
+https://joshuawiidrichter.vercel.app/
 
 Setup:
 

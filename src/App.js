@@ -22,7 +22,7 @@ function App() {
         {/* ROW 1 */}
         <div className="row">
           <div className="portfolio-container">
-            <a href="https://gaby-photography.vercel.app/" target="_blank">
+            <a href="https://gabyisabelle.com" target="_blank">
               <p className="text-black">Gaby Photography</p>
             </a>
             <div className="photo-container">

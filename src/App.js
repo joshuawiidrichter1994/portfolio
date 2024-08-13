@@ -1,23 +1,10 @@
 import './App.css';
+import Header from './components/Header';
 
 function App() {
   return (
     <div className="App">
-      <header>
-        <div className="left-block">
-          <h1>JR</h1>
-        </div>
-        <div className="right-block">
-          <div className="text-container">
-            <a
-              href="https://www.linkedin.com/in/joshua-richter-5373329b/"
-              target="_blank"
-            >
-              <p className="text-header">Cape Town based web developer</p>
-            </a>
-          </div>
-        </div>
-      </header>
+      <Header></Header>
       <main>
         {/* ROW 1 */}
         <div className="row">
@@ -51,6 +38,8 @@ function App() {
               Purrfection is a Cape Town based artist.
             </p>
           </div>
+        </div>
+        <div className="row">
           <div className="portfolio-container">
             <a href="https://bumbo.co.za/" target="_blank">
               <p className="text-black">Bumbo</p>
@@ -66,9 +55,6 @@ function App() {
               Quality, comfort and safety without compromise
             </p>
           </div>
-        </div>
-        {/* ROW 2 */}
-        <div className="row">
           <div className="portfolio-container">
             <a
               href="https://book-store-snowy-seven.vercel.app/"

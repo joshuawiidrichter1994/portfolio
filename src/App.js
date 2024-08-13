@@ -52,16 +52,18 @@ function App() {
             </p>
           </div>
           <div className="portfolio-container">
-            <p className="text-black">Music Production</p>
+            <a href="https://bumbo.co.za/" target="_blank">
+              <p className="text-black">Bumbo</p>
+            </a>
+
             <div className="photo-container">
               <img
-                className="portfolio-photo"
-                src={require('./images/music-production.jpg')}
+                className="portfolio-photo-bumbo"
+                src={require('./images/bumbo-logo.png')}
               />
             </div>
             <p className="portfolio-description">
-              Years of practice and learning dedicated to the art of mixing,
-              mastering, and music production
+              Quality, comfort and safety without compromise
             </p>
           </div>
         </div>
@@ -84,8 +86,6 @@ function App() {
               Keep an online library of all the books you own.
             </p>
           </div>
-          <div className="portfolio-container"></div>
-          <div className="portfolio-container"></div>
         </div>
       </main>
       <footer>

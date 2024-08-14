@@ -8,9 +8,7 @@ header {
 }
 
 footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
   background-color: black;
   height: 250px;
   width: 100%;
@@ -40,7 +38,7 @@ a {
 .right-block {
   align-items: center;
   display: flex;
-  justify-content: end;
+  
   height: 100%;
   width: 75%;
 }
@@ -108,8 +106,27 @@ a {
   letter-spacing: 0.5rem;
 }
 
+.normal-text-white {
+  color: white;
+  font-size: 15px;
+}
+
 .portfolio-description {
   font-size: 15px;
   padding-top: 25px;
   font-style: italic;
 }
+
+.footer-container {
+  
+}
+
+.footer-contact {
+  padding: 25px;
+  width: 50%;
+}
+
+.footer-socials {
+  width: 50%;
+}
+

@@ -19,7 +19,17 @@ function Footer() {
               Alternatively, drop me a mail at joshuawiidrichter@gmail.com
             </p>
           </div>
-          <div className="footer-socials"></div>
+          <div className="footer-socials">
+            <a
+              href="https://www.linkedin.com/in/joshua-richter-5373329b/"
+              target="_blank"
+            >
+              <img
+                src={require('../images/linkedin.png')}
+                className="social-icon"
+              />
+            </a>
+          </div>
         </div>
       </footer>
     </div>

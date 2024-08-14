@@ -118,7 +118,7 @@ a {
 }
 
 .footer-container {
-  
+  display: flex;
 }
 
 .footer-contact {
@@ -127,6 +127,15 @@ a {
 }
 
 .footer-socials {
+  display: flex;
+  align-self: flex-end;
+  justify-content: end;
   width: 50%;
+}
+
+.social-icon {
+  margin: 0px 35px 0px 0px;
+  height: 25px;
+  width: 25px;
 }
 

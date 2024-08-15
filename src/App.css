@@ -137,14 +137,20 @@ a {
 
 .email-field::placeholder {
   font-family: 'Poppins';
+  padding: 0px 0px 0px 10px;
 }
 
 .submit-btn {
-  
+  background-color: white;
   font-family: 'Poppins';
   margin: 0px 0px 0px 15px;
-  height: 35px;
+  height: 37px;
   width: 80px;
+  border-radius: 8%;
+  border-color: white;
+  font-size: 12px;
+  font-weight: 600;
+  color: rgb(66, 66, 66);
 }
 
 .footer-socials {

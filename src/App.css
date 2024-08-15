@@ -153,6 +153,10 @@ a {
   color: rgb(66, 66, 66);
 }
 
+.submit-btn:hover {
+  cursor:pointer;
+}
+
 .footer-socials {
   display: flex;
   align-self: flex-end;

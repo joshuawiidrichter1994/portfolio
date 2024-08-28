@@ -8,7 +8,6 @@ header {
 }
 
 footer {
-
   background-color: black;
   height: 250px;
   width: 100%;
@@ -38,7 +37,6 @@ a {
 .right-block {
   align-items: center;
   display: flex;
-  
   height: 100%;
   width: 75%;
 }
@@ -65,7 +63,6 @@ a {
 
   .portfolio-mobile {
     text-align: center;
-    
   }
 
   .portfolio-container {
@@ -93,7 +90,6 @@ a {
   text-align: center;
   margin: 25px;
   padding: 25px;
-  
   height: 500px;
   border: solid black;
 }
@@ -194,4 +190,3 @@ a {
   height: 25px;
   width: 25px;
 }
-
